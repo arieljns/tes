@@ -1,0 +1,39 @@
+#header-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7% 5%;
+}
+
+#header-parent .problem {
+  margin: 0;
+}
+
+#header-parent .problem h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#header-parent .problem button {
+  height: 50px;
+  width: 200px;
+  background-color: #874947;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 20px;
+  margin: 0px;
+  position: relative;
+  bottom: 20px;
+}
+
+#header-parent .img-petani img {
+  height: 400px;
+  width: 400px;
+}
+/*# sourceMappingURL=styles.css.map */

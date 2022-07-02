@@ -1,0 +1,41 @@
+$color-main: #874947;
+
+
+@mixin font-overpass {
+    font-family: 'Overpass', sans-serif;
+}
+
+@mixin font-ubuntu {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header-parent{
+    display: flex;
+    justify-content: center;
+    padding: 7% 5%;
+    .problem{
+     margin: 0;
+        h1{
+            @include font-ubuntu();
+            font-size: 4em;
+            align-items: center;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            background-color: #874947;
+            color: white;
+            @include font-ubuntu();
+            border-radius: 20px;
+            margin: 0px;
+            position: relative;
+            bottom: 20px;
+        }
+    }
+    .img-petani{
+       img{
+        height: 400px;
+        width: 400px;
+       }
+    }
+}
